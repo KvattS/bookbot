@@ -5,7 +5,7 @@ def main():
     chars_dict = get_chars_dict(text)
     report = get_report(chars_dict)
     print(f"--- Begin report of {book_path} ---")
-    print(f"{num_words} words found in the document")
+    print(f"{num_words} words found in the document \n")
 
     for item in report:
         print(f"The {item[0]} character was found {item[1]} times")
